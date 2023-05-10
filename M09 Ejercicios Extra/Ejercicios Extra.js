@@ -105,6 +105,7 @@ function sortArray(arrayOfStrings) {
     // de la longitud de cada string.
     // [EJEMPLO]: ["You", "are", "beautiful", "looking"]  ---> [“You", "are", "looking", "beautiful"]
     // Tu código:
+
     return arrayOfStrings.sort((str1, str2) => {
         return str1.length - str2.length
     })
